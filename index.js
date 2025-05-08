@@ -19,6 +19,7 @@ cron.schedule("*/5 * * * *", async () => {
     process.env.ADVANCED_IT_MAIL_SERVER,
     process.env.TODAY_FOOD_MENU,
     process.env.ABDUR_ROUF_PROFILE,
+    process.env.COC_SERVER,
   ];
 
   for (const url of urls) {
